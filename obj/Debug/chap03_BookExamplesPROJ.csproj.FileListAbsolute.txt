@@ -1,0 +1,9 @@
+C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csprojAssemblyReference.cache
+C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csproj.CoreCompileInputs.cache
+C:\VSRepositories\chap03_BookExamples\bin\Debug\chap03_BookExamplesPROJ.exe.config
+C:\VSRepositories\chap03_BookExamples\bin\Debug\chap03_BookExamplesPROJ.exe
+C:\VSRepositories\chap03_BookExamples\bin\Debug\chap03_BookExamplesPROJ.pdb
+C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.frmMain.resources
+C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csproj.GenerateResource.cache
+C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.exe
+C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.pdb
