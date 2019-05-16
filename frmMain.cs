@@ -14,7 +14,7 @@ namespace chap03_BookExamplesPROJ
         private TextBox txtOperand2;
         private TextBox txtResult;
         private Button btnCalc;
-        private Button button2;
+        private Button btnExit;
         private Label label2;
         #region Windows Code
         private void InitializeComponent()
@@ -25,7 +25,7 @@ namespace chap03_BookExamplesPROJ
             this.txtOperand2 = new System.Windows.Forms.TextBox();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.btnCalc = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -68,31 +68,31 @@ namespace chap03_BookExamplesPROJ
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
             this.txtResult.Size = new System.Drawing.Size(305, 20);
-            this.txtResult.TabIndex = 4;
+            this.txtResult.TabIndex = 6;
             // 
             // btnCalc
             // 
             this.btnCalc.Location = new System.Drawing.Point(64, 152);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(75, 23);
-            this.btnCalc.TabIndex = 5;
+            this.btnCalc.TabIndex = 4;
             this.btnCalc.Text = "&Calculate";
             this.btnCalc.UseVisualStyleBackColor = true;
             this.btnCalc.Click += new System.EventHandler(this.BtnCalc_Click);
             // 
-            // button2
+            // btnExit
             // 
-            this.button2.Location = new System.Drawing.Point(218, 152);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "E&xit";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnExit.Location = new System.Drawing.Point(218, 152);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 5;
+            this.btnExit.Text = "E&xit";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
             this.ClientSize = new System.Drawing.Size(386, 187);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.txtOperand2);
@@ -122,12 +122,36 @@ namespace chap03_BookExamplesPROJ
         private void BtnCalc_Click(object sender, EventArgs e)
         {
             bool flag;
-            int operand1;
-            int operand2;
-            int answer;
+            //int operand1;
+            //int operand2;
+            //int answer;
+
+
+            //TRYITOUT PAGE 71
+            //float operand1;
+            //float operand2;
+            //float answer;
+
+            //TRYITOUT PAGE 72
+            //double operand1;
+            //double operand2;
+            //double answer;
+
+            //TRYITOUT PAGE 75
+            decimal operand1;
+            decimal operand2;
+            decimal answer;
+
             // Input Step
             // Check first input...
-            flag = int.TryParse(txtOperand1.Text, out operand1);
+            //flag = int.TryParse(txtOperand1.Text, out operand1);
+            //TRYITOUT PAGE 71
+            //flag = float.TryParse(txtOperand1.Text, out operand1);
+            //TRYITOUT PAGE 72
+            //flag = double.TryParse(txtOperand1.Text, out operand1);
+            //TRYITOUT PAGE 75
+            flag = decimal.TryParse(txtOperand1.Text, out operand1);
+
             if (flag == false)
             {
                 MessageBox.Show("The first value you entered is not a number: " + txtOperand1.Text);
@@ -136,7 +160,14 @@ namespace chap03_BookExamplesPROJ
                 return;
             }
             // Check second input...
-            flag = int.TryParse(txtOperand2.Text, out operand2);
+            //flag = int.TryParse(txtOperand2.Text, out operand2);
+            //TRYITOUT PAGE 71
+            //flag = float.TryParse(txtOperand2.Text, out operand2);
+            //TRYITOUT PAGE 71
+            //flag = double.TryParse(txtOperand2.Text, out operand2);
+            //TRYITOUT PAGE 75
+            flag = decimal.TryParse(txtOperand2.Text, out operand2);
+
             if (flag == false)
             {
                 MessageBox.Show("Enter a whole number", "Input Error");
