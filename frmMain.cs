@@ -130,7 +130,8 @@ namespace chap03_BookExamplesPROJ
             flag = int.TryParse(txtOperand1.Text, out operand1);
             if (flag == false)
             {
-                MessageBox.Show("Enter a whole number", "Input Error");
+                MessageBox.Show("The first value you entered is not a number: " + txtOperand1.Text);
+                // MessageBox.Show("Enter a whole number", "Input Error");
                 txtOperand1.Focus();
                 return;
             }
@@ -145,9 +146,7 @@ namespace chap03_BookExamplesPROJ
             // Process Step
             answer = operand1 / operand2;
             // Display Step
-            txtResult.Text = operand1.ToString() + " divided by " +
-            operand2.ToString() +
-            " equals " + answer.ToString();
+            txtResult.Text = operand1.ToString() + " divided by " + operand2.ToString() + " equals " + answer.ToString();
             txtResult.Visible = true;
         }
         private void btnExit_Click(object sender, EventArgs e)
