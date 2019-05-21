@@ -88,6 +88,7 @@ namespace chap03_BookExamplesPROJ
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // frmMain
             // 
@@ -139,6 +140,7 @@ namespace chap03_BookExamplesPROJ
 
             //TRYITOUT PAGE 75
             decimal operand1;
+            //decimal 3operand1;
             decimal operand2;
             decimal answer;
 
@@ -177,10 +179,23 @@ namespace chap03_BookExamplesPROJ
             // Process Step
             answer = operand1 / operand2;
             // Display Step
+            //txtResult.Text = operand1 + " divided by " + operand2.ToString() + " equals " + answer;
             txtResult.Text = operand1.ToString() + " divided by " + operand2.ToString() + " equals " + answer.ToString();
             txtResult.Visible = true;
+
+            //chapter 4 - operator precedence:
+            //1 - ! negation
+            //2 - * multiplication / division
+            //3 - + addition - substraction
+            //4 - = assignation
+            //answer = (2 + operand1) * (operand2 + 5);
+
+            //// Display Step
+            //txtResult.Text = operand1.ToString() + " divided by " + operand2.ToString() + " equals " + answer.ToString();
+            //txtResult.Visible = true;
         }
-        private void btnExit_Click(object sender, EventArgs e)
+
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             Close();
         }

@@ -7,3 +7,12 @@ C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.frmMain.
 C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csproj.GenerateResource.cache
 C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.exe
 C:\VSRepositories\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.pdb
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\bin\Debug\chap03_BookExamplesPROJ.exe.config
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\bin\Debug\chap03_BookExamplesPROJ.exe
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\bin\Debug\chap03_BookExamplesPROJ.pdb
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csprojAssemblyReference.cache
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.frmMain.resources
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csproj.GenerateResource.cache
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.csproj.CoreCompileInputs.cache
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.exe
+C:\VSRepositories\TestAppGitHubSRFN\chap03_BookExamples\obj\Debug\chap03_BookExamplesPROJ.pdb
